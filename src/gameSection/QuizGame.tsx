@@ -36,7 +36,7 @@ const QuizGame: React.FC = () => {
 
   if (!gameStarted) {
     return (
-      <main className="main-content">
+      <main className="main-content" style={{ backgroundColor: '#e6f3ff' }}>
         <div className="quiz-container">
           <div className="pixel-art-decorations">
             <div className="pixel-plant left-plant"></div>
